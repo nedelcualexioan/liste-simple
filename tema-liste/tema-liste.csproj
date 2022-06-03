@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>tema_liste</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net5.0\db\complexe.txt" />
+    <Content Include="bin\Debug\net5.0\db\database.txt" />
+    <Content Include="bin\Debug\net5.0\db\fractii.txt" />
+    <Content Include="bin\Debug\net5.0\tema-liste.deps.json" />
+    <Content Include="bin\Debug\net5.0\tema-liste.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\net5.0\tema-liste.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net5.0\ref\tema-liste.dll" />
+    <None Include="bin\Debug\net5.0\tema-liste.dll" />
+    <None Include="bin\Debug\net5.0\tema-liste.exe" />
+    <None Include="bin\Debug\net5.0\tema-liste.pdb" />
+  </ItemGroup>
+
+</Project>
